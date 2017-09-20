@@ -1,0 +1,75 @@
+html { background:#303030;}
+
+#wrapper { width:1100px; padding:0 50px; min-height::1500px; margin:0 auto; background:white;}
+
+#header { height:350px; width:1100px; background:url(../images/header.jpg) top right no-repeat;}
+
+#menu { width:1110px; height:70px; background:url(../images/menu.png) no-repeat; margin-top:15px;}
+#menu ul { float:left;}
+#menu ul li{ float:left; min-width:150px; margin:0 15px;  line-height:60px; }
+#menu ul li a{ text-decoration:none; color:#fff; font-size:36px; font-family:Verdana, Geneva, sans-serif;
+margin:0 3px;}
+#menu ul li a:hover { font-size:38px; margin:0px;}
+
+#sLinks h1 { line-height:60px; color:#fff; font-size:36px; font-family:Verdana, Geneva, sans-serif; float:left; margin-right:10px;}
+#sLinks img { margin-top:7px; margin-right:5px;}
+#sLinks { float:right; margin-right:20px;}
+
+#sidebar { width:275px; float:left; background:url(../images/sample.png) repeat-y;}
+.subject { width:275px; min-height:130px;}
+.head { width:275px; height:80px; background:url(../images/sb.png) no-repeat;}
+.subject h1 { color:white; font-family:"Comic Sans MS", cursive; font-size:25px; line-height:76px; text-align:center; 
+	text-shadow:5px 5px 5px #000;}
+	
+.body { }
+.body ul { padding:5px; padding-left:70px;}
+.body ul li { list-style-image:url(../images/index.png); margin-bottom:5px;}
+.body ul li a { text-decoration:none; color:black; font-family:"Comic Sans MS", cursive;
+	 font-size:18px; line-height:30px;}
+.body ul li a:hover { text-decoration:underline; font-style:italic; color:#900;}
+
+#main { width:780px; min-height:1100px; background:url(../images/back.jpg) no-repeat; float:right;
+	 box-shadow:10px 10px 10px #999999; background-size:100% 100%; overflow:auto;}
+#main h1 { width:300px; height:75px; text-align:center; background:url(../images/title.png) no-repeat;
+	font-family:Arial, Helvetica, sans-serif; font-size:28px; line-height:60px; color:#FFF; text-shadow:4px 6px 4px #000;}
+#main p { font-size:18px; margin:10px 35px; text-align:start; border:thin solid #000; padding:10px;}
+#main h2 { font-size:26px; font-weight:bold; color:#606; margin:2px; margin-top:10px; padding:5px; padding-bottom:10px; 
+	border:thick ridge #000; border-radius:10px; text-shadow:5px 5px 8px #000; 
+	font-family:Georgia, "Times New Roman", Times, serif;}
+#main h3 { font-size:24px; color:#930; margin:10px; margin-top:15px; margin-bottom:5px; font-family:Tahoma, Geneva, sans-serif; 
+	border:thick double #000; padding:5px; border-radius:5px;}
+#info { font-family:"Times New Roman", Times, serif; text-align:center; margin:15px 0;}
+#info p a { text-decoration:none; font-style:italic;}
+#info p a:hover { text-decoration:underline;}
+#info ol { padding:5px; text-align:center; margin:5px;}
+#info ol li { list-style:disc; list-style-position:inside; font-family:Tahoma, Geneva, sans-serif;
+	 font-size:20px; line-height:30px;}
+#info ol li a { text-decoration:none; color:#000;}
+#info ol li a:hover { text-decoration:underline;}
+	 
+#drives { text-align:center;}
+#drives img { margin:10px; margin-top:20px;}
+#drives a:hover img { border:thick double #000; border-radius:5px; margin:4px; margin-top:10px; margin-bottom:10px;}
+
+#footer { width:1200px; height:400px; margin-left:-50px; background:url(../images/footer.png) no-repeat top; padding-top:160px;
+	 clear:both;}
+
+#send { width:275px; min-height:200px; float:left; padding-left:50px;}
+#send input[type="text"] { width:265px; height:20px; background-color:#f0f0f0; border:0;
+	 border-radius:5px; margin-bottom:10px; padding:5px;}
+#send textarea { width:265px; height:150px; background-color:#f0f0f0; border:0;
+	 border-radius:5px; margin-bottom:10px; padding:5px;}
+#send input[type="submit"] { width:165px; height:30px; background-color:#f0f0f0; border:0;
+	 border-radius:5px; margin-bottom:10px; padding:5px;}
+#send input[type="submit"]:hover { background-color:#6CF;}
+#contacts { float:right; font-family:"Courier New", Courier, monospace; color:#FFF; width:600px;}
+#contacts img { float:left; margin-right:30px;}
+#contacts p { padding-top:20px; font-size:16px;}
+#contacts a { text-decoration:none; color:#FFF;}
+#contacts a:hover { text-decoration:underline; color:#C6C;}
+#copy-rights { text-align:center; font-size:18px; padding-bottom:20px;}
+#copy-rights a { text-decoration:none; color:#666;}
+#copy-rights a:hover { text-decoration:underline;}
+
+#courses { text-align:center;}
+#courses img { margin:10px; margin-bottom:20px; margin-top:20px;}
